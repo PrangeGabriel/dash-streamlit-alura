@@ -13,7 +13,7 @@ st.set_page_config(
 #carregamenmto dos dados, ver como carregar meus próprios dados
 
 # --- Carregamento dos dados ---
-df = pd.read_csv(r"C:\Users\griel\Desktop\Estudos\data_science\aula4\dados_imersao_final.csv")
+df = pd.read_csv("dados_imersao_final.csv")
 
 
 # --- Barra Lateral (Filtros) ---
